@@ -1,0 +1,51 @@
+# === General ===
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Build outputs ===
+build/
+out/
+output/
+*.o
+*.ko
+*.mod
+*.mod.*
+*.cmd
+*.symvers
+*.order
+modules.order
+
+# Kernel/U-Boot specific
+u-boot/
+linux/
+crosstool-ng/
+# (note: don’t ignore these if they are submodules – keep them tracked.
+# if you’re using extern/ submodules, then remove them here!)
+
+# === Logs and temp files ===
+*.log
+*.tmp
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+*.iml
+
+# === Generated toolchain paths ===
+x-tools/
+tmp/
+cache/
+
+# === SD card / images ===
+*.img
+*.wic
+*.sdcard
+*.iso
+zImage
+u-boot.img
+MLO
+dtbs/
+rootfs/
