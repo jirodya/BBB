@@ -10,9 +10,6 @@
 
   * `crosstool-ng/` – [Crosstool-NG](https://github.com/crosstool-ng/crosstool-ng)
 * `docs/` – reference notes and assignment PDFs (for learning)
-* `tools/` – helper scripts or local installs (ignored)
-* `build/` – working build directories (ignored)
-* `x-tools/` – generated cross toolchains (ignored)
 
 > Tip: build and output directories are intentionally ignored so the repo stays small and reproducible.
 
