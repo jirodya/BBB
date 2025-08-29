@@ -1,3 +1,6 @@
 [submodule "external/crosstool-ng"]
 	path = external/crosstool-ng
 	url = https://github.com/crosstool-ng/crosstool-ng
+[submodule "external/u-boot"]
+	path = external/u-boot
+	url = https://github.com/u-boot/u-boot.git
